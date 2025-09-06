@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: stirling-pdf
+    env: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    autoDeploy: true
